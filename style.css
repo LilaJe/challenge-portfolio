@@ -1,0 +1,71 @@
+:root {
+   --dark: #37474f;
+   --light: #fff; 
+   --navlink-color: #00bcd4;
+}
+
+body {
+   display: flex;
+   flex-direction: column;
+   line-height: 1.3;
+} 
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+  background-color: var(--dark);
+  color: var(--light);
+}
+
+h1 {
+   font-size: 400%;
+ }
+
+ h2 {
+   font-size: 300%;
+ } 
+
+ nav {
+   font-size: 18px;
+ }
+
+ .card {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0, 2);
+   width: 40%;
+ }
+
+ .card:hover {
+   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0, 2);
+ }
+
+ .container {
+   padding: 2px 16px;
+ }
+
+ p {
+   font-size: 18px;
+   color:black;
+ }
+
+
+main {
+   margin: 20px;
+   border: 20px;
+   padding: 50px;
+   color: rgb(110, 108, 191);
+}
+
+
+/*. is id which is one thing your targeting
+//# is class which is if you want 2 or more things to be/ look the same 
+*/
+
+
+
+/*  min-height: 100%;
+   line-height: 1;
+   font-family: sans-serif;
+   background-color: blanchedalmond;
+*/
